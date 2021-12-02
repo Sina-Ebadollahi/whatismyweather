@@ -1,0 +1,10 @@
+.weatherCards {
+  grid-gap: 1rem;
+  background-color: rgb(240, 233, 233);
+  margin: 1rem 1rem;
+  box-shadow: 0 2px 4px black;
+  padding: 3rem 2rem;
+  opacity: 80%;
+  cursor: pointer;
+  text-align: center;
+}

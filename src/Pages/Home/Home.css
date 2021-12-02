@@ -1,0 +1,26 @@
+.Home-page {
+  background-color: rgb(240, 233, 233);
+  background: url("../../Assets/HomeBack.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 20vh;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home-page.dark {
+  background: url("../../Assets/HomeBackDark.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.city-container {
+  margin-top: 20vh;
+  width: 60%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+}
