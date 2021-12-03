@@ -11,12 +11,13 @@ import { useEffect, useState } from 'react'
 import UseTheme from '../../Hooks/UseTheme'
 import { useNavigate } from 'react-router';
 
-
+// Auth key
+import key from '../../Assets/key';
 export default function CountriesWeather({city}) {
     const { theme } = UseTheme();
     const nav = useNavigate();
     const [cityData,setCityData] = useState()
-    const {data, error, waiting} = UseFetchGET(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3ddbbe7ffc125518df10531e0a02e5d2`)
+    const {data, error, waiting} = UseFetchGET(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}`)
     useEffect(() => {
         setCityData(data)
     },[data])

@@ -1,0 +1,36 @@
+.detail-container {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail-container.Clear {
+  background: url("../../Assets/DisplayPage/sunny.jpg");
+}
+.detail-container.Clouds {
+  background: url("../../Assets/DisplayPage/cloudy.jpg");
+}
+.detail-container.Snowy {
+  background: url("../../Assets/DisplayPage/snowy.jpg");
+}
+.detail-container.Rainy {
+  background: url("../../Assets/DisplayPage/rainy.jpg");
+}
+.layout-container {
+  margin-top: 20vh;
+  padding: 10rem 10rem;
+  box-shadow: 1px 3px 4px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.div-cityName {
+  padding: 3rem;
+  flex: 1 1 20rem;
+}
+.div-props {
+  flex: 3 1 20rem;
+}
